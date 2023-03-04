@@ -1,0 +1,112 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.lable {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.success-input {
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #9aa5b1;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  outline: none;
+}
+.failure-input {
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  outline: none;
+}
+.error {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 0px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.submit-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  height: 30px;
+  width: 65px;
+  background-color: #ea580c;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px 15px 0px 10px;
+}
+.container1 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 70px;
+}
+.success-message {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.submit {
+  height: 35px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #ea580c;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px 15px 0px 10px;
+  margin-top: 20px;
+}
+.tick-image {
+  height: 70px;
+  width: 70px;
+}
